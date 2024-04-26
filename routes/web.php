@@ -24,5 +24,8 @@ Route::get('/primitives_and_objects', function () {
     return view('primitives_and_objects');
 });
 
+Route::get('/function', function () {
+    return view('function');
+});
 
 
