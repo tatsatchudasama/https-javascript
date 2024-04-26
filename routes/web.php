@@ -28,4 +28,6 @@ Route::get('/function', function () {
     return view('function');
 });
 
-
+Route::get('/array', function () {
+    return view('array');
+});
