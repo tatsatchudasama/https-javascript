@@ -16,10 +16,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/variable', function () {
+    return view('variable');
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/primitives_and_objects', function () {
+    return view('primitives_and_objects');
 });
+
+
+
