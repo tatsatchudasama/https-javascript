@@ -12,10 +12,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/variable', function () {
     return view('variable');
 });
@@ -26,6 +22,10 @@ Route::get('/primitives_and_objects', function () {
 
 Route::get('/function', function () {
     return view('function');
+});
+
+Route::get('/loop', function () {
+    return view('loop');
 });
 
 
