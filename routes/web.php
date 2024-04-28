@@ -31,3 +31,9 @@ Route::get('/function', function () {
 Route::get('/array', function () {
     return view('array');
 });
+
+
+Route::get('/test', function () {
+    return view('test
+');
+});
