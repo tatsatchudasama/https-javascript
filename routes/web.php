@@ -41,3 +41,11 @@ Route::get('/test', function () {
 Route::get('/navigation', function () {
     return view('navigation');
 });
+
+Route::get('/table_navigation', function () {
+    return view('table_navigation');
+});
+
+Route::get('/searching-dom', function () {
+    return view('searching_DOM');
+});
