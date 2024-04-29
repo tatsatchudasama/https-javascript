@@ -49,3 +49,7 @@ Route::get('/table_navigation', function () {
 Route::get('/searching-dom', function () {
     return view('searching_DOM');
 });
+
+Route::get('/html-insertion-methods', function () {
+    return view('html_insertion_methods');
+});
