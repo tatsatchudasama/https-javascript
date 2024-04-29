@@ -27,7 +27,6 @@ Route::get('/test', function () {
     return view('test');
 });
 
-
 Route::get('/navigation', function () {
     return view('navigation');
 });
@@ -44,7 +43,6 @@ Route::get('/html-insertion-methods', function () {
     return view('html_insertion_methods');
 });
 
-
 Route::get('/insertAdjacentHTML', function () {
     return view('insertAdjacentHTML');
 });
@@ -55,5 +53,9 @@ Route::get('/changing-HTML-classes', function () {
 
 Route::get('/setInterval-&-setTimeout', function () {
     return view('setInterval_&_setTimeout');
+});
+
+Route::get('/browser-events', function () {
+    return view('browser_events');
 });
 

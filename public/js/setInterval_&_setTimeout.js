@@ -1,7 +1,7 @@
 
 let a = setTimeout(function(){
-    alert('inside of time out');
-}, 5000
+        alert('inside of time out');
+    }, 5000
 );
 
 
