@@ -34,6 +34,10 @@ Route::get('/array', function () {
 
 
 Route::get('/test', function () {
-    return view('test
-');
+    return view('test');
+});
+
+
+Route::get('/navigation', function () {
+    return view('navigation');
 });
