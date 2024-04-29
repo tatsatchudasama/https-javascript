@@ -52,3 +52,8 @@ Route::get('/insertAdjacentHTML', function () {
 Route::get('/changing-HTML-classes', function () {
     return view('changing_HTML_classes');
 });
+
+Route::get('/setInterval-&-setTimeout', function () {
+    return view('setInterval_&_setTimeout');
+});
+
