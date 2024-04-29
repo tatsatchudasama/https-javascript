@@ -53,3 +53,8 @@ Route::get('/searching-dom', function () {
 Route::get('/html-insertion-methods', function () {
     return view('html_insertion_methods');
 });
+
+
+Route::get('/insertAdjacentHTML', function () {
+    return view('insertAdjacentHTML');
+});
