@@ -48,3 +48,7 @@ Route::get('/html-insertion-methods', function () {
 Route::get('/insertAdjacentHTML', function () {
     return view('insertAdjacentHTML');
 });
+
+Route::get('/changing-HTML-classes', function () {
+    return view('changing_HTML_classes');
+});
