@@ -96,3 +96,9 @@ Route::get('finally-class', function () {
 Route::get('fetch-API', function () {
     return view('fetch_API');
 });
+
+
+
+Route::get('post-API', function () {
+    return view('post_API');
+});
