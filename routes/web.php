@@ -91,3 +91,8 @@ Route::get('try-and-catch', function () {
 Route::get('finally-class', function () {
     return view('finally_class');
 });
+
+
+Route::get('fetch-API', function () {
+    return view('fetch_API');
+});
