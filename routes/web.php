@@ -68,7 +68,6 @@ Route::get('/browser-events', function () {
     return view('browser_events');
 });
 
-
 Route::get('/read-more', function () {
     return view('read_more');
 });
@@ -83,4 +82,8 @@ Route::get('/then-&-catch', function () {
 
 Route::get('/promise-API', function () {
     return view('promise_API');
+});
+
+Route::get('try-and-catch', function () {
+    return view('try_and_catch');
 });
