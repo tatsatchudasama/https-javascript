@@ -64,3 +64,10 @@ Route::get('/read-more', function () {
     return view('read_more');
 });
 
+Route::get('/promises', function () {
+    return view('promises');
+});
+
+Route::get('/then-&-catch', function () {
+    return view('then_and_catch');
+});
