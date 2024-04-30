@@ -87,3 +87,7 @@ Route::get('/promise-API', function () {
 Route::get('try-and-catch', function () {
     return view('try_and_catch');
 });
+
+Route::get('finally-class', function () {
+    return view('finally_class');
+});
