@@ -71,3 +71,7 @@ Route::get('/promises', function () {
 Route::get('/then-&-catch', function () {
     return view('then_and_catch');
 });
+
+Route::get('/promise-API', function () {
+    return view('promise_API');
+});
