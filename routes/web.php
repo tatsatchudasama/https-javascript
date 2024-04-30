@@ -59,3 +59,8 @@ Route::get('/browser-events', function () {
     return view('browser_events');
 });
 
+
+Route::get('/read-more', function () {
+    return view('read_more');
+});
+
