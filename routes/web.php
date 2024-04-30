@@ -29,7 +29,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
 Route::get('/variable', function () {
     return view('variable');
 });
@@ -43,12 +42,3 @@ Route::get('/function', function () {
 });
 
 
-=======
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
-    return view('welcome');
-});
->>>>>>> e5b6fb8 (web.php)
