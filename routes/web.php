@@ -84,11 +84,3 @@ Route::get('/then-&-catch', function () {
 Route::get('/promise-API', function () {
     return view('promise_API');
 });
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/', function () {
-    return view('welcome');
-});
