@@ -1,15 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StudentController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Javascript
 |--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
 */
 
 Route::get('/', function () {
@@ -111,3 +108,24 @@ Route::get('localStorage', function () {
 Route::get('sessionStorage', function () {
     return view('practice/sessionStorage');
 });
+
+
+ 
+/*
+|--------------------------------------------------------------------------
+| AJAX
+|--------------------------------------------------------------------------
+*/
+
+Route::get('add-student', [StudentController::class, 'add_student']);
+
+Route::post('add-student', [StudentController::class, 'stored_student'])->name('stored_student');
+
+Route::get('get-student', function () {
+    return view('ajax.student_view');
+});
+
+Route::get('get-all-student', [StudentController::class, 'get_student'])->name('get_student');
+
+
+ 
