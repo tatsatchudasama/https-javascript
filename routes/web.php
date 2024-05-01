@@ -13,101 +13,101 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('practice/welcome');
 });
 
 Route::get('/variable', function () {
-    return view('variable');
+    return view('practice/variable');
 });
 
 Route::get('/primitives_and_objects', function () {
-    return view('primitives_and_objects');
+    return view('practice/primitives_and_objects');
 });
 
 Route::get('/function', function () {
-    return view('function');
+    return view('practice/function');
 });
 
 Route::get('/array', function () {
-    return view('array');
+    return view('practice/array');
 });
 
 Route::get('/test', function () {
-    return view('test');
+    return view('practice/test');
 });
 
 Route::get('/navigation', function () {
-    return view('navigation');
+    return view('practice/navigation');
 });
 
 Route::get('/table_navigation', function () {
-    return view('table_navigation');
+    return view('practice/table_navigation');
 });
 
 Route::get('/searching-dom', function () {
-    return view('searching_DOM');
+    return view('practice/searching_DOM');
 });
 
 Route::get('/html-insertion-methods', function () {
-    return view('html_insertion_methods');
+    return view('practice/html_insertion_methods');
 });
 
 Route::get('/insertAdjacentHTML', function () {
-    return view('insertAdjacentHTML');
+    return view('practice/insertAdjacentHTML');
 });
 
 Route::get('/changing-HTML-classes', function () {
-    return view('changing_HTML_classes');
+    return view('practice/changing_HTML_classes');
 });
 
 Route::get('/setInterval-&-setTimeout', function () {
-    return view('setInterval_&_setTimeout');
+    return view('practice/setInterval_&_setTimeout');
 });
 
 Route::get('/browser-events', function () {
-    return view('browser_events');
+    return view('practice/browser_events');
 });
 
 Route::get('/read-more', function () {
-    return view('read_more');
+    return view('practice/read_more');
 });
 
 Route::get('/promises', function () {
-    return view('promises');
+    return view('practice/promises');
 });
 
 Route::get('/then-&-catch', function () {
-    return view('then_and_catch');
+    return view('practice/then_and_catch');
 });
 
 Route::get('/promise-API', function () {
-    return view('promise_API');
+    return view('practice/promise_API');
 });
 
 Route::get('try-and-catch', function () {
-    return view('try_and_catch');
+    return view('practice/try_and_catch');
 });
 
 Route::get('finally-class', function () {
-    return view('finally_class');
+    return view('practice/finally_class');
 });
 
 Route::get('fetch-API', function () {
-    return view('fetch_API');
+    return view('practice/fetch_API');
 });
 
 Route::get('post-API', function () {
-    return view('post_API');
+    return view('practice/post_API');
 });
 
 Route::get('cookies', function () {
-    return view('cookies');
+    return view('practice/cookies');
 });
 
 Route::get('localStorage', function () {
-    return view('localStorage');
+    return view('practice/localStorage');
 });
 
 Route::get('sessionStorage', function () {
-    return view('sessionStorage');
+    return view('practice/sessionStorage');
 });
