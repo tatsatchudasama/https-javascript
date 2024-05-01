@@ -103,3 +103,7 @@ Route::get('post-API', function () {
 Route::get('cookies', function () {
     return view('cookies');
 });
+
+Route::get('localStorage', function () {
+    return view('localStorage');
+});
