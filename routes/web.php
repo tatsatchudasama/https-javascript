@@ -107,3 +107,7 @@ Route::get('cookies', function () {
 Route::get('localStorage', function () {
     return view('localStorage');
 });
+
+Route::get('sessionStorage', function () {
+    return view('sessionStorage');
+});
