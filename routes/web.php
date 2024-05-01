@@ -92,13 +92,14 @@ Route::get('finally-class', function () {
     return view('finally_class');
 });
 
-
 Route::get('fetch-API', function () {
     return view('fetch_API');
 });
 
-
-
 Route::get('post-API', function () {
     return view('post_API');
+});
+
+Route::get('cookies', function () {
+    return view('cookies');
 });
